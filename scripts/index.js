@@ -35,8 +35,8 @@ const profileTitleInput = document.querySelector("#profile-title-input");
 const profileDescriptionInput = document.querySelector("#profile-description-input");
 const profileEditForm = profileEditModal.querySelector(".modal__form");
 
-const cardListEl = document.querySelector(".card__list");
-const cardTemplate = document.querySelector("#card-template").textContent.firstElementChild;
+const cardListEl = document.querySelector(".cards__list");
+const cardTemplate = document.querySelector("#card-template").content.firstElementChild;
 
 // Functions
 function closePopup() {
