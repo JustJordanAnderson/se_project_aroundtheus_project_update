@@ -58,7 +58,7 @@ function getCardElement(data) {
 // Event Handlers
 function handleProfileEditSubmit(e) {
     e.preventDefault();
-    profileTitle.textContext = profileTitleInput.value;
+    profileTitle.textContent = profileTitleInput.value;
     profilelDescription.textContent = profileDescriptionInput.value;
     closePopup();
 }
